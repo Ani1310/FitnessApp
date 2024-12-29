@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#87ceeb"
+        android:textStyle="bold"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Click here"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="367dp"
+        android:layout_height="305dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:contentDescription="My Image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/excercise" />
+
+    <TextView
+        android:id="@+id/editTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:hint="Welcome to Your Fitness Tool"
+        android:padding="12dp"
+        android:textColor="#87CEEB"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

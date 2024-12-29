@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "388724310578",
+    "firebase_url": "https://superhero-625f7-default-rtdb.firebaseio.com",
+    "project_id": "superhero-625f7",
+    "storage_bucket": "superhero-625f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388724310578:android:8623eb192291092f32f22b",
+        "android_client_info": {
+          "package_name": "com.example.superhero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjG4MYKiJ7-hNsc8JZ7JEq9altivbGhMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
